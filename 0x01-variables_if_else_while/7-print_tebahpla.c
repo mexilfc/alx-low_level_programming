@@ -5,16 +5,18 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Description: Print lowercase alphabet backwards
+ * Return: 0 
  */
 
 int main(void)
 {
-	char low;
+char c;
 
-	for (low = 'z'; low >= 'a'; low--)
-		putchar(low);
-		putchar('\n');
+for (c = 'z'; c >= 'a'; --c)
+putchar(c);
 
-	return (0);
+putchar('\n');
+
+return (0);
 }
